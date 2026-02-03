@@ -1,4 +1,4 @@
 public interface DocSign
 {
-    void sign();
+    void signing();
 }
