@@ -1,56 +1,48 @@
-####################################
-# Java
-####################################
+# ===== Java build outputs =====
 *.class
-*.log
-hs_err_pid*
+*.jar
+*.war
+*.ear
 
-####################################
-# Maven
-####################################
+# ===== Maven =====
 target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-####################################
-# Gradle
-####################################
-build/
+# ===== Gradle =====
 .gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
 
-####################################
-# IntelliJ IDEA
-####################################
+# ===== IntelliJ IDEA =====
 .idea/
 *.iml
-*.iws
-*.ipr
 out/
 
-####################################
-# Eclipse (以防有人用 Eclipse)
-####################################
-.classpath
+# ===== Eclipse =====
 .project
+.classpath
 .settings/
 
-####################################
-# VS Code (以防协作成员使用)
-####################################
+# ===== NetBeans =====
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== VS Code =====
 .vscode/
 
-####################################
-# OS files
-####################################
+# ===== OS =====
 .DS_Store
 Thumbs.db
 
-####################################
-# Temporary / backup files
-####################################
-*.swp
-*.swo
-*~
+# ===== Logs =====
+*.log

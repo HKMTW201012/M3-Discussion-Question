@@ -12,7 +12,6 @@ public abstract class Person
         return yearsOfExperience;
     }
 
-
     public void setter(int workYears)
     {
         this.yearsOfExperience = workYears;
